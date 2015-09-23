@@ -14,6 +14,7 @@
 		FF8882511B8DAEE900E662B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8882501B8DAEE900E662B5 /* Images.xcassets */; };
 		FF8882541B8DAEE900E662B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8882521B8DAEE900E662B5 /* LaunchScreen.xib */; };
 		FF8882601B8DAEE900E662B5 /* iOS___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88825F1B8DAEE900E662B5 /* iOS___Tests.m */; };
+		FF8882811B8DD10000E662B5 /* PMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8882801B8DD10000E662B5 /* PMOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF8882591B8DAEE900E662B5 /* iOS多线程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS多线程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF88825E1B8DAEE900E662B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF88825F1B8DAEE900E662B5 /* iOS___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS___Tests.m"; sourceTree = "<group>"; };
+		FF88827F1B8DD10000E662B5 /* PMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMOperation.h; sourceTree = "<group>"; };
+		FF8882801B8DD10000E662B5 /* PMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				FF8882481B8DAEE900E662B5 /* AppDelegate.m */,
 				FF88824A1B8DAEE900E662B5 /* ViewController.h */,
 				FF88824B1B8DAEE900E662B5 /* ViewController.m */,
+				FF88827F1B8DD10000E662B5 /* PMOperation.h */,
+				FF8882801B8DD10000E662B5 /* PMOperation.m */,
 				FF88824D1B8DAEE900E662B5 /* Main.storyboard */,
 				FF8882501B8DAEE900E662B5 /* Images.xcassets */,
 				FF8882521B8DAEE900E662B5 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				FF88824C1B8DAEE900E662B5 /* ViewController.m in Sources */,
 				FF8882491B8DAEE900E662B5 /* AppDelegate.m in Sources */,
+				FF8882811B8DD10000E662B5 /* PMOperation.m in Sources */,
 				FF8882461B8DAEE900E662B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				FF8882651B8DAEE900E662B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF8882661B8DAEE900E662B5 /* Build configuration list for PBXNativeTarget "iOS多线程Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				FF8882681B8DAEE900E662B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
